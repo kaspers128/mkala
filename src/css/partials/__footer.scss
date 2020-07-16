@@ -1,0 +1,22 @@
+footer {
+    background: #F8F8F8;
+    height: 160px;
+    padding-top: 22px;
+    margin-top: 104px;
+
+    ul.social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        li {
+            margin: 0 35px;
+
+            img {
+                display: block;
+                width: 36px;
+            }
+        }
+    }
+}

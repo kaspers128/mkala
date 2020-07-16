@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        flex: 0 0 144px;
+        margin-right: 48px;
+
+        @media screen and (max-width: 768px){
+            margin: 0 auto 30px;
+        }
+    }
+    
+    h1 {
+        span {
+        display: table;
+        border-bottom: 4px solid #FFDD86;
+        }
+    }
+}
+
+.right-header {
+    width: 100%;
+
+    .subheader {
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+
+        @media screen and (max-width: 480px){
+            flex-direction: column;
+            margin-top: 15px;
+        }
+
+        .text2 {
+            text-indent: 20px;
+            max-width: 400px;
+        }
+
+        .btn {
+            margin-top: 16px;
+            @media screen and (max-width: 480px){
+                margin-top: 25px;
+            }
+        }
+    }
+
+}
+
