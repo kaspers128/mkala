@@ -16,7 +16,7 @@
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^4.1.0",
     "gulp-watch": "^5.0.1",
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "del": "^5.1.0",
